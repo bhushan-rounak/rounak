@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
 {
-  char *name[]={"apple", "mango", "banana", "pear"};
+  char name[][4]={"apple", "mango", "banana", "pear"};
   printf("%c", name[1][1]);
 }
