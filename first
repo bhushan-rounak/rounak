@@ -2,5 +2,5 @@
 int main()
 {
   char *name[]={"apple", "mango", "banana", "pear"};
-  printf("%c", *(*(name+1)+1));
+  printf("%c", name[1][1]);
 }
